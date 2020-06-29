@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ServerGuiController">
+   <children>
+      <HBox prefHeight="31.0" prefWidth="600.0">
+         <children>
+            <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#serverStart" prefHeight="27.0" prefWidth="141.0" text="ServerStart" HBox.hgrow="ALWAYS" />
+            <Button mnemonicParsing="false" onAction="#serverStop" prefHeight="27.0" prefWidth="135.0" text="ServerStop" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="serverPort" promptText="ServerPort" text="8989" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <ListView maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS" fx:id="serverLog"/>
+   </children>
+</VBox>

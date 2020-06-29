@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CloudClient/CloudClient.iml" filepath="$PROJECT_DIR$/CloudClient/CloudClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CloudLibrary/CloudLibrary.iml" filepath="$PROJECT_DIR$/CloudLibrary/CloudLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CloudServer/CloudServer.iml" filepath="$PROJECT_DIR$/CloudServer/CloudServer.iml" />
+    </modules>
+  </component>
+</project>
